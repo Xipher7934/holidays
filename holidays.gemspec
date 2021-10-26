@@ -5,11 +5,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'holidays/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'holidays'
+  gem.name          = 'holidayscustom'
   gem.version       = Holidays::VERSION
-  gem.authors       = ['Alex Dunae', 'Phil Peble']
+  gem.authors       = ['Alex Dunae', 'Phil Peble', 'Ethan Heming']
   gem.email         = ['holidaysgem@gmail.com']
-  gem.homepage      = 'https://github.com/holidays/holidays'
+  gem.homepage      = 'https://github.com/Xipher7934/holidays'
   gem.description   = %q(A collection of Ruby methods to deal with statutory and other holidays. You deserve a holiday!)
   gem.summary       = %q(A collection of Ruby methods to deal with statutory and other holidays.)
   gem.files         = `git ls-files`.split("\n") - ['.gitignore', '.travis.yml']
