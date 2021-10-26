@@ -5,10 +5,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'holidays/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'holidayscustom'
+  gem.name          = 'holidays-custom'
   gem.version       = Holidays::VERSION
   gem.authors       = ['Alex Dunae', 'Phil Peble', 'Ethan Heming']
-  gem.email         = ['holidaysgem@gmail.com']
+  gem.email         = ['heming.e@gmail.com']
   gem.homepage      = 'https://github.com/Xipher7934/holidays'
   gem.description   = %q(A collection of Ruby methods to deal with statutory and other holidays. You deserve a holiday!)
   gem.summary       = %q(A collection of Ruby methods to deal with statutory and other holidays.)
@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(/^test/)
   gem.require_paths = ['lib']
   gem.licenses      = ['MIT']
-  gem.required_ruby_version = '>= 2.4'
+  gem.required_ruby_version = '>= 2.7'
   gem.add_development_dependency 'bundler', '~> 2'
   gem.add_development_dependency 'rake', '~> 12'
   gem.add_development_dependency 'simplecov', '~> 0.16'
